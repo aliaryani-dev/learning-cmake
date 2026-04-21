@@ -1,4 +1,8 @@
-/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/Library.dir
-/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/Executable.dir
 /run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/edit_cache.dir
 /run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/rebuild_cache.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/src/CMakeFiles/Library.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/src/CMakeFiles/edit_cache.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/src/CMakeFiles/rebuild_cache.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/app/CMakeFiles/Executable.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/app/CMakeFiles/edit_cache.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/app/CMakeFiles/rebuild_cache.dir

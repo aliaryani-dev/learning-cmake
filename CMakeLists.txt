@@ -12,6 +12,6 @@ project (
     VERSION 1.0.0
     LANGUAGES C CXX
 )
-add_library (Library STATIC my_lib.cpp)
-add_executable (Executable main.cpp)
-target_link_libraries (Executable PUBLIC Library)
+
+add_subdirectory (src)
+add_subdirectory (app)

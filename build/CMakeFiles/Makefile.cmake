@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/run/media/aliaryani/NewVolume/cppproj/learning-cmake/CMakeLists.txt"
+  "/run/media/aliaryani/NewVolume/cppproj/learning-cmake/app/CMakeLists.txt"
   "CMakeFiles/3.31.10/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.10/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.10/CMakeSystem.cmake"
+  "/run/media/aliaryani/NewVolume/cppproj/learning-cmake/src/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -50,10 +52,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Library.dir/DependInfo.cmake"
-  "CMakeFiles/Executable.dir/DependInfo.cmake"
+  "src/CMakeFiles/Library.dir/DependInfo.cmake"
+  "app/CMakeFiles/Executable.dir/DependInfo.cmake"
   )
