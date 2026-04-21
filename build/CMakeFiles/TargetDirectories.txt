@@ -1,0 +1,3 @@
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/Executable.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/edit_cache.dir
+/run/media/aliaryani/NewVolume/cppproj/learning-cmake/build/CMakeFiles/rebuild_cache.dir
