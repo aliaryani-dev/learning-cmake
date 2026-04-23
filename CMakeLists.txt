@@ -17,7 +17,7 @@ project (
 set(LIBRARY_NAME Library)
 set(EXECUTABLE_NAME Executable)
 # Booleans
-Option(COMPILE_EXECUTABLE "Whether to compile the executable" OFF)
+Option(COMPILE_EXECUTABLE "Whether to compile the executable" ON)
 
 #Setting C++ Standard
 set(CMAKE_CXX_STANDARD 23)
@@ -25,6 +25,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory (src)
+add_subdirectory (config)
 if (COMPILE_EXECUTABLE)
     add_subdirectory (app)
 else()
