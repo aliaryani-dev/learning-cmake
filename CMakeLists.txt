@@ -13,5 +13,20 @@ project (
     LANGUAGES C CXX
 )
 
+# Declaring a variable
+set(LIBRARY_NAME Library)
+set(EXECUTABLE_NAME Executable)
+# Booleans
+Option(COMPILE_EXECUTABLE "Whether to compile the executable" OFF)
+
+#Setting C++ Standard
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 add_subdirectory (src)
-add_subdirectory (app)
+if (COMPILE_EXECUTABLE)
+    add_subdirectory (app)
+else()
+    message("Without exe. compiling")
+endif()
