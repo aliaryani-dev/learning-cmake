@@ -24,6 +24,12 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# modules
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
+include(AddGitSubmodule)
+
+add_git_submodule(external/json)
+
 add_subdirectory (src)
 add_subdirectory (config)
 if (COMPILE_EXECUTABLE)
