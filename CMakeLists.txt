@@ -27,8 +27,17 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # modules
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 include(AddGitSubmodule)
-
 add_git_submodule(external/json)
+
+# modules using fetch content 
+#include(FetchContent)
+#FetchContent_Declare(
+    #nlohmann_json
+    #GIT_REPOSITORY https://github.com/nlohmann/json 
+    #GIT_TAG v3.11.2
+    #    GIT_SHALLOW TRUE
+    #)
+#FetchContent_MakeAvailable(nlohmann_json)
 
 add_subdirectory (src)
 add_subdirectory (config)
